@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap By SKILLHUB</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .category{
+      transition: 500ms;
+    }
+    .category:hover{
+      background-color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="collapse alert alert-primary mb-0" id="collapseSearch">
+    <div class="container">
+      <div class="input-group">
+        <input type="text" placeholder="Search OfferKart" class="form-control">
+        <button type="button" class="btn btn-primary"><i class="bi bi-search"></i></button>
+      </div>
+      <h6 class="my-3">Quick Start</h6>
+      <div class="row">
+        <div class="col-sm-3">
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+        </div>
+        <div class="col-sm-3">
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+          <a class="d-block mt-2 text-decoration-none" href="">Search Result List</a>
+        </div>
+        <div class="col-sm-6">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="img-fluid" src="./assets/laptop-blue-background-mock-up_1022-178.avif" alt="">
+              </div>
+              <div class="col-sm-6">
+                <h4>Featured Item</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <button type="button" class="btn btn-sm btn-outline-primary">Shop now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">SKILLHUB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown">Menu</button>
+          <ul class="dropdown-menu alert alert-primary w-100">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="d-flex gap-4 category p-3">
+                    <i class="bi bi-laptop fs-1"></i>
+                    <div>
+                      <p><strong>Laptops</strong></p>
+                      <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="ms-auto">
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse"
+            data-bs-target="#collapseSearch">
+            <i class="bi bi-search"></i>
+          </button>
+          <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasCart">
+            <i class="bi bi-cart4"></i>
+          </button>
+          <button type="button" class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLogin">
+            Login<i class="bi bi-lock"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="1000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-end">
+              <img class="img-fluid h-75" src="./assets/cat-page-brand-compare-xps-13-9320-sl-front-800x550.avif"
+                alt="">
+            </div>
+            <div class="col-sm-6">
+              <h1>ChromeBook 15 Pro</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, soluta.</p>
+              <button type="button" class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 text-end">
+              <img class="img-fluid h-75" src="./assets/cat-page-brand-compare-xps-13-9320-sl-front-800x550.avif"
+                alt="">
+            </div>
+            <div class="col-sm-6">
+              <h1>ChromeBook 15 Pro</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, soluta.</p>
+              <button type="button" class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-primary py-3">
+    <div class="d-flex container justify-content-between">
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-credit-card fs-1"></i>
+        <div>
+          <h6>secure checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-truck fs-1"></i>
+        <div>
+          <h6>secure checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="text-light d-flex gap-3">
+        <i class="bi bi-credit-card fs-1"></i>
+        <div>
+          <h6>secure checkout</h6>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="d-flex justify-content-between my-5">
+      <h1>Featured Products</h1>
+      <button type="button" class="btn btn-sm btn-primary">View All</button>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body"><img class="img-fluid" src="./assets/71vFKBpKakL._AC_UF1000,1000_QL80_.jpg" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between my-2">
+              <strong>MacBook Air</strong>
+              <span>Starting <strong>87,462</strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-primary w-100 mt-3">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body"><img class="img-fluid" src="./assets/71vFKBpKakL._AC_UF1000,1000_QL80_.jpg" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between my-2">
+              <strong>MacBook Air</strong>
+              <span>Starting <strong>87,462</strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-primary w-100 mt-3">Shop Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body"><img class="img-fluid" src="./assets/71vFKBpKakL._AC_UF1000,1000_QL80_.jpg" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between my-2">
+              <strong>MacBook Air</strong>
+              <span>Starting <strong>87,462</strong></span>
+            </div>
+            <button type="button" class="btn btn-outline-primary w-100 mt-3">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-center my-4">What's Trending</h3>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <span class="bg-success text-light">Most Popular</span>
+              <i class="bi bi-heart"></i>
+            </div>
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_zNCTtTHFHlr6jfMEWwa7yaAFCpiGmdXXQ&usqp=CAU"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <span class="bg-danger text-light">Outoff Stock</span>
+              <i class="bi bi-heart"></i>
+            </div>
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1xK4TbzZhcX3lfaTA3i7dQQZg0vNoCLgDww&usqp=CAU"
+              alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <span class="bg-success text-light">Most Popular</span>
+              <i class="bi bi-heart"></i>
+            </div>
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzEHpnvH9bRzoO3bboBo5H4YBZjyWkG1m8gA&usqp=CAU"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-success center">View All Products</button>
+  </div>
+
+  <div class="offcanvas offcanvas-end" id="offcanvasCart">
+    <div class="offcanvas-header bg-primary text-light">
+      <h5 class="offcanvas-title">Cart</h5>
+      <button type="button" class="btn-close text-bg-light" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body alert alert-primary mb-0">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="img-fluid" src="./assets/free-Laptop-Scheme.jpg" alt="">
+            </div>
+            <div class="col-sm-6">
+              <h6>Dell XPS 13 Pro</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-sm-3 text-primary">
+              <strong>99,999</strong>
+            </div>
+          </div>
+          <p class="text-success">You will save <strong>14,788</strong> on this order</p>
+          <div class="btn-group w-100">
+            <button type="button" class="btn btn-outline-success"><i class="bi bi-box-arrow-in-down"></i></button>
+            <button type="button" class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+            <button type="button" class="btn btn-outline-danger"><i class="bi bi-trash"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="img-fluid" src="./assets/free-Laptop-Scheme.jpg" alt="">
+            </div>
+            <div class="col-sm-6">
+              <h6>Dell XPS 13 Pro</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-sm-3 text-primary">
+              <strong>99,999</strong>
+            </div>
+          </div>
+          <p class="text-success">You will save <strong>14,788</strong> on this order</p>
+          <div class="btn-group w-100">
+            <button type="button" class="btn btn-outline-success"><i class="bi bi-box-arrow-in-down"></i></button>
+            <button type="button" class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+            <button type="button" class="btn btn-outline-danger"><i class="bi bi-trash"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <div class="card-body">
+          <p class="text-secondary" data-bs-toggle="collapse" data-bs-target="#coupon">I Have a Coupon</p>
+          <div class="collapse" id="coupon">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Coupon code">
+              <button type="button" class="btn btn-primary">Apply</button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Price</span>
+            <span>51587</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span>Est Tax</span>
+            <span>5657</span>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <span>Total</span>
+            <span>658587</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" id="offcanvasLogin">
+    <div class="offcanvas-header bg-primary text-light">
+      <h5 class="offcanvas-title">Secure Login</h5>
+      <button type="button" class="btn-close text-bg-light" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="card">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+          <div>
+            <label for="email" class="form-label">First Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+          <div class="mt-2">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please choose a username.</div>
+          </div>
+          <button type="button" class="btn btn-primary w-100 mt-3">
+            Login
+          </button>
+          <p class="text-center mt-3">
+            Dont Have Account? <a href="#">Create Account</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+<!-- drible.com awarddds.com themeforest.com-->
